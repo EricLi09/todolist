@@ -1,83 +1,55 @@
-# TypeScript & React TodoMVC Example
+# Hooks TODO
+A simple todo app built using react hooks.
 
-> TypeScript is a language for application-scale JavaScript development. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.
+A live demo is available at: https://jacob-ebey.github.io/hooks-todo/
 
-> _[TypeScript - typescriptlang.org](http://typescriptlang.org)_
+## Available Scripts
 
-> React is a JavaScript library for creating user interfaces. Its core principles are declarative code, efficiency, and flexibility. Simply specify what your component looks like and React will keep it up-to-date when the underlying data changes.
+In the project directory, you can run:
 
-> _[React - facebook.github.io/react](http://facebook.github.io/react)_
+### `npm dev`
 
-## Learning TypeScript
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The [TypeScript website](http://typescriptlang.org) is a great resource for getting started.
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-Here are some links you may find helpful:
+### `npm test`
 
-* [Tutorial](http://www.typescriptlang.org/Tutorial)
-* [Code Playground](http://www.typescriptlang.org/Playground)
-* [Documentation](https://github.com/Microsoft/TypeScript/wiki)
-* [Applications built with TypeScript](http://www.typescriptlang.org/Samples)
-* [Blog](http://blogs.msdn.com/b/typescript)
-* [Source Code](https://github.com/Microsoft/TypeScript)
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Articles and guides from the community:
+### `npm run build`
 
-* [Thoughts on TypeScript](http://www.nczonline.net/blog/2012/10/04/thoughts-on-typescript)
-* [ScreenCast - Why I Like TypeScript](https://www.youtube.com/watch?v=Mh5VQVfWTbs)
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Get help from other TypeScript users:
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-* [TypeScript on StackOverflow](http://stackoverflow.com/questions/tagged/typescript)
-* [Forums](https://github.com/Microsoft/TypeScript/issues)
-* [TypeScript on Twitter](http://twitter.com/typescriptlang)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
+### `npm start`
 
-## Learning React
+Serves the production build from the "build" folder.
 
-The [React getting started documentation](http://facebook.github.io/react/docs/getting-started.html) is a great way to get started.
+### `npm run deploy`
 
-Here are some links you may find helpful:
+Creates and deploys a production build to github pages.
 
-* [Documentation](http://facebook.github.io/react/docs/getting-started.html)
-* [API Reference](http://facebook.github.io/react/docs/reference.html)
-* [Blog](http://facebook.github.io/react/blog/)
-* [React on GitHub](https://github.com/facebook/react)
-* [Support](http://facebook.github.io/react/support.html)
+### `npm run eject`
 
-Articles and guides from the community:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-* [How is Facebook's React JavaScript library](http://www.quora.com/React-JS-Library/How-is-Facebooks-React-JavaScript-library)
-* [React: Under the hood](http://www.quora.com/Pete-Hunt/Posts/React-Under-the-Hood)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Get help from other React users:
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-* [React on StackOverflow](http://stackoverflow.com/questions/tagged/reactjs)
-* [Discussion Forum](https://discuss.reactjs.org/)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-
-## Running
-
-A standalone TypeScript compiler is available on NPM.
-
-	npm install typescript
-
-To compile the TypeScript in this project:
-
-	# from examples/typescript-react
-	$ ./node_modules/typescript/bin/tsc -p ./js/
-
-To be able to run the output JS files in the browser:
-
-	# from examples/typescript-react
-	$ ./node_modules/browserify/bin/cmd ./js/app.js -o ./js/bundle.js"
-
-To run the app, spin up an HTTP server (e.g. `python -m SimpleHTTPServer`) and visit http://localhost/.../myexample/.
-Alternatively you can run:
-
-	# from examples/typescript-react
-	$ npm run start
+To learn React, check out the [React documentation](https://reactjs.org/).
